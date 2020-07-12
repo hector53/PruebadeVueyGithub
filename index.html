@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+    <body>
+    <!--   HOla codigo bonito-->
+        <div id="app">
+            {{ message }} 
+			<!-- asi se muestran las variables en vue js -->
+		<span v-bind:title="message2">
+			Mueva el mavida sobre mí durante unos segundos
+			para ver mi cacas enlazado dinámicamente.
+		  </span>
+			
+        </div>
+		
+		<div id="app-3">
+  <span v-if="seen">Ahora me ves</span>
+</div>
+		
+
+        
+        <script src="js/app.js"></script>
+    </body>
+</html>
